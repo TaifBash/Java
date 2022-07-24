@@ -1,5 +1,4 @@
 package mileage;
-//Taif Basheikh 2005890
 import java.util.Scanner; 
 public class Mileage {   
  public static void main(String[] args) { 
@@ -19,5 +18,6 @@ System.out.println("This program will calculate mileage ");//For clarification
         System.out.println("miles per gallons = "+mpg);}
     else{
         System.out.println("The gallons is 0 or LEES than 0.\n\nPlease RUN the program AGAIN"); 
-    }}}
-
+    }
+ }
+}
