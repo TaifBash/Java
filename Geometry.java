@@ -1,14 +1,4 @@
-
 package geometry;
-
-/**
- *
- * @author Windows10
-import java.util.Scanner;
-
-/**
- * This program demonstrates static methods
- */
 import java.util.Scanner;
 public class Geometry {
 
