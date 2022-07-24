@@ -1,6 +1,6 @@
 package hotel;
 import java.util.Scanner;
-public class Hotel { //Taif Basheikh 2005890
+public class Hotel { 
     public static void main(String[] args) {
         // TODO code application logic here
         
