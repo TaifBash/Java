@@ -1,6 +1,6 @@
 package pay;
 import java.util.Scanner;  // Needed for the Scanner class 
-             //Name:Taif basheikh ID: 2005890
+       
 public class Pay{ 
    public static void main(String[] args) { 
 // Create a Scanner object to read from the keyboard. 
@@ -18,4 +18,5 @@ pay = hours * rate;
 else 
 pay = (hours - 40) * (1.5 * rate) + 40 * rate;
 System.out.println("You earned $" +pay); // Display results.
-   } }
+   } 
+}
