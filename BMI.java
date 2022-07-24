@@ -1,15 +1,6 @@
-/* 
- * Taif Basheikh
- * ID: 2005890
- */
-package bmi;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Windows10
- */
 public class BMI {
 //
     /**
