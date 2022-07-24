@@ -1,6 +1,6 @@
 package lengthname;
 import java.util.Scanner;
-                            //Taif Basheikh 2005890
+
 public class LengthName {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
