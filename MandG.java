@@ -1,20 +1,7 @@
-/*
- *Taif Basheikh
- * ID: 2005890
- */
 package mandg;
-
 import java.util.Scanner;
 
-/**
- *
- * @author Windows10
- */
 public class MandG {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in); 
