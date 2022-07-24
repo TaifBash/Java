@@ -1,6 +1,5 @@
 package isprime.method;
 public class IsPrimeMethod {
-//Taif basheikh 2005890
     public static boolean  isPrime(int unum) 
 {
      int ed=0,cd=1;
