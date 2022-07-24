@@ -1,13 +1,4 @@
-/*
- * Taif Basheikh
- * ID: 2005890
- */
-package acres;
 
-/**
- *
- * @author Windows10
- */
 public class Acres {
 
     /**
