@@ -3,7 +3,6 @@ package conversionprogram2;
 
 import java.util.Scanner;
 
-//Taif Basheikh 2005890
 public class Conversionprogram2 {
 
        public static void main(String[] args) {
