@@ -18,7 +18,7 @@ value=0;
 ch=-1;
   
 
-//Mani menu************************Taif Basheikh 2005890***********************
+//Mani ************************menu***********************
 System.out.println("---------------------------------------------------");
 System.out.println("\tWelcome to Waffle&Pancake Sweets System");
 System.out.println("---------------------------------------------------");
@@ -46,12 +46,12 @@ if(try_input=='N'||try_input=='n') {ch=3;}
 if(ch==3) /*if user enter 3*/{System.out.println("\nProgram ended, Thank you");}
 if(ch==1||ch==2) // if user enter 1 or 2 in main choice selection
 
-// pieces ***********************Taif Basheikh 2005890************************
+//  ***********************pieces************************
 {int ch_souse=-1, ch_topping=-1, pieces=0;
 System.out.print("Enter the number of pieces: "); pieces=sc.nextInt();
   
 
-//Souce Menu**********************Taif Basheikh 2005890**********************
+//Souce **********************Menu**********************
 System.out.println("---------------------------------------------------");
 System.out.println("\t\tChoose the Souse");
 System.out.println("---------------------------------------------------");
@@ -64,7 +64,7 @@ if(5<ch_souse||ch_souse<1)
 {System.out.println("Sorry! wrong input, Exitting program"); ch=3;}
 
 
-else { //Topping Menu ****************Taif Basheikh 2005890*********************
+else { // ****************Topping Menu*********************
 System.out.println("---------------------------------------------------");
 System.out.println("\t\tChoose the Toppings");
 System.out.println("---------------------------------------------------");
@@ -113,19 +113,19 @@ if(ch_souse>0&&ch_souse<5){value=value+(2);}
  value=(value+(value*(15.0f/100.0f)));//Add tax in total price
   
   
-//Print the Order *************Taif Basheikh 2005890******************
+// *************Print the Order******************
 System.out.println("---------------------------------------------------");
 System.out.println("\t\tYour order information");
 System.out.println("---------------------------------------------------");
 
 
-//Print Sweeet type:----------------Taif Basheikh 2005890-------------------
+//:----------------Print Sweeet type-------------------
 
 if(ch==1) {System.out.print("\nSweet Type: Waffel");}
 else{System.out.print("Sweet Type: Pancakes");} 
 System.out.print("\tNumber of pieces: "+pieces+"\n");
 
-//Print Souse Type:-----------------Taif Basheikh 2005890-------------------
+//:-----------------Print Souse Type-------------------
 
      if(ch_souse==1){System.out.print  ("Souse: Chocolet Souse");}
 else if (ch_souse==2) {System.out.print("Souse: Honey Souse");}
@@ -133,7 +133,7 @@ else if (ch_souse==3) {System.out.print("Souse: Cramel Souse");}
 else if (ch_souse==4) {System.out.print("Souse: Pistatio Souse");}
 else {System.out.print                 ("Souse: No Souse");} 
 
-//Print Tooping:--------------------Taif Basheikh 2005890--------------------
+//:--------------------Print Tooping--------------------
 
      if (ch_topping==1) {System.out.print("\tToppings: Strawberry\n");}
 else if (ch_topping==2) {System.out.print("\t\tToppings: Banana\n");}
@@ -141,7 +141,7 @@ else if (ch_topping==3) {System.out.print("\t\tToppings: Nuts\n");}
 else if (ch_topping==4) {System.out.print("\tToppings: Ice crem\n");}
 else                    {System.out.print("\t\tToppings: No adding\n");} 
 
-//Print Discount:--------------Taif Basheikh 2005890------------------
+//:--------------Print Discount------------------
 if((ch==1&&pieces>5)||(ch==2&&pieces>10)){System.out.print("Discont: 10%");}
 else {System.out.print("Discont: 0%");} 
 
