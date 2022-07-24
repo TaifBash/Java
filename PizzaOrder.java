@@ -5,7 +5,7 @@
  */
 package pizzaorder;
 import java.util.Scanner ;  // Needed for the Scanner class 
-// Taif Basheikh 2005890
+
 public class PizzaOrder {
     public static void main(String[] args) {
                                                                                                // Create a Scanner object to read input. 
@@ -29,7 +29,7 @@ public class PizzaOrder {
                                                                                           // Determine if user is eligible for discount by 
                                                                                        // having the same first name as one of the owners. 
 
-//---------------TAIF BASHEIKH 2005890---------------------------TASK1
+//------------------------------------------TASK1
         // ADD LINES HERE FOR TASK #1 
 if(firstName.equalsIgnoreCase("Mike")|| firstName.equalsIgnoreCase("Diane"))
                { discount=true;}
@@ -50,7 +50,7 @@ if(firstName.equalsIgnoreCase("Mike")|| firstName.equalsIgnoreCase("Diane"))
         inches = keyboard.nextInt();
                                                                                             // Set price and size of pizza ordered.
         
-        //---------------TAIF BASHEIKH 2005890----------------------TASK2
+        //-----------------------------------TASK2
                                                                                             // ADD LINES HERE FOR TASK #2 
                                                                                     // Consume the remaining newline character. keyboard.nextLine(); 
                                                                                          // Prompt user and get crust choice. 
@@ -69,7 +69,7 @@ System.out.print("(H)Hand-tossed, "+ "(T) Thin-crust, or "+ "(D) Deep-dish " + "
         crustType = input.charAt(0);
         
         
-//---------------TAIF BASHEIKH 2005890----------------------TASK3
+//----------------------------------TASK3
         // ADD LINES FOR TASK #3 
        /*switch(crustType){
             case 'h':
@@ -133,16 +133,16 @@ System.out.println("\n*** was not one of the choices, so a Hand-tossed crust wil
         System.out.println(toppings);
 
         // Apply discount if user is eligible. 
-        //--------------------------------------------------------------TASK4
+        //------------------------------------------TASK4
         // ADD LINES FOR TASK #4 HERE 
         if(discount){
             System.out.println("you are eligible for a $2.00 discount."); //DISCOUNT
             cost-=2;
         }
        
-        //--------------------------------------------------------------TASK5
-                                                                                                                         // EDIT PROGRAM FOR TASK #5 
-                                                                                                                 // SO ALL MONEY OUTPUT APPEARS WITH 2 DECIMAL PLACES
+        //--------------------------------------TASK5
+                        // EDIT PROGRAM FOR TASK #5 
+                   // SO ALL MONEY OUTPUT APPEARS WITH 2 DECIMAL PLACES
         
        System.out.printf("The cost of your order " + "is: $%.2f\n", cost); //
         // Calculate and display tax and total cost. 
