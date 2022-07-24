@@ -1,10 +1,8 @@
 
-package d2l_2005890_p1;
+
 import java.util.Scanner;
-/**
- * @author Taif Basheikh 2005890
- */
-public class D2L_2005890_P1 {
+
+public class Waffle_Pancake_Sweets_System {
 
     public static void main(String[] args) {
        
