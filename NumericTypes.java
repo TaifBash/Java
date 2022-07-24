@@ -1,5 +1,7 @@
-package numerictypes; // Taif Baheikh 2005890
+package numerictypes; 
+
 import java.util.Scanner; 
+
 public class NumericTypes{
  public static void main (String [] args){
 final int NUMBER = 2 ;   // First test score final 
@@ -17,4 +19,6 @@ System.out.printf(SCORE1 + " and " + SCORE2 + " have an average of ");
 // Convert Fahrenheit temperature to Celsius. 
 fToC =  (5.0/9)*(BOILING_IN_F - 32) ; 
 output = BOILING_IN_F + " in Fahrenheit is " + fToC + " in Celsius."; 
-System.out.println(output);  }}
+System.out.println(output);  
+ }
+}
